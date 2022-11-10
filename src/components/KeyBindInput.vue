@@ -3,7 +3,7 @@
     <div class="mr-4">{{ label }}</div>
     <div class="white--text font-weight-bold mr-4" v-for="(keybind, index) of value" :key="index">{{ keybind.key }}</div>
     <v-btn
-      color="blue darken-1"
+      color="grey darken-1"
       text
       @click="startInput()"
     >
