@@ -1,5 +1,5 @@
 <template>
-  <v-app-bar id="header" v-on:newDifficulties="newDifficulties" app flat color="primary">
+  <v-app-bar id="header" v-on:newDifficulties="newDifficulties" app flat color="grey">
     <div class="d-flex align-center">
       
         <v-img
