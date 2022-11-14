@@ -324,7 +324,7 @@ export default {
         })
       }*/
       this.webmaniaBackgroundImage = new Image()
-      this.webmaniaBackgroundImage.src = require('@/assets/app/background.jpg')
+      this.webmaniaBackgroundImage.src = require('@/assets/app/background.png')
 
       this.canvas = document.getElementById('gameCanvas')
       this.context = this.canvas.getContext('2d')
